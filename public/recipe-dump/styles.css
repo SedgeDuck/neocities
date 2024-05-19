@@ -1,0 +1,95 @@
+/* Main and Global Styles*/
+
+* {
+  background-color: #35013f;
+  color: #99ddcc;
+  font-family: Georgia, "Garamond", "Times New Roman", serif;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex: auto;
+}
+
+button.nav-button {
+  background-color: #b643cd;
+  border-color: #99ddcc;
+  color: black;
+  padding: 5px;
+}
+
+button.nav-button:hover {
+  background-color: #ff5da2;
+  color: white;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+/*img {
+  width: 100%;
+}*/
+
+figcaption {
+  font-size: x-small;
+  padding-top: 3px;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  width: 40vw;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  background-color: #ff5da2;
+  padding: 5px;
+}
+
+a {
+  font-size: x-large;
+}
+
+/* Recipe Pages */
+
+.recipe-title {
+  display: flex;
+  justify-content: center;
+}
+
+.back {
+  /*  width: 120px;*/
+}
+
+.recipe-img {
+  width: 40vw;
+  margin: auto;
+}
+
+.recipe-component {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.reference-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  margin: auto;
+}
