@@ -60,7 +60,7 @@ h2 {
   padding: 5px;
 }
 
-a {
+.main-link {
   font-size: x-large;
 }
 
@@ -81,6 +81,7 @@ a {
 }
 
 .recipe-component {
+  /*NOTE: this does NOT currently wrap around any of the actual contents of components. To be added later*/
   display: flex;
   justify-content: center;
   margin: auto;
